@@ -21,6 +21,7 @@ class ElectricalSubj{
     constructor(name, capacity, color){
       super(name, capacity);
       this.color = color;
+      this.status = 'unplugged';
     }
   }
   
@@ -29,6 +30,7 @@ class ElectricalSubj{
     constructor(name, capacity, brand){
       super(name, capacity);
       this.brand = brand;
+      this.status = 'unplugged';
     }
   }
   
